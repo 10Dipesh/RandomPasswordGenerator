@@ -1,7 +1,6 @@
 var password = document.getElementById("password");
 
-function genPassword()
- {
+function genPassword() {
   var chars =
     "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var passwordLength = 12;
@@ -16,5 +15,5 @@ function genPassword()
 function copyPassword() {
   var copyText = document.getElementById("password");
   copyText.select();
-  document.execCommand("copy");
+  navigator.clipboard.writeText(copyText.value);
 }
