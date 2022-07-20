@@ -10,12 +10,16 @@
   <body>
     <div class="box">
       <h2>Random Password Generator</h2>
+      <div class="slidercontainer">
+        <h3>Length</h3>
+        <input type="range" min="1" max="12" value="0" id="slider">
+      </div>
       <input
         type="text"
         name=""
-        palceholder="Create passowrd"
+        palceholder="Create password"
         id="password"
-        readonly
+        readonly class="pass-container"
       />
       <table>
         <th><div class="btn1 button" onclick="genPassword()">Generate</div></th>

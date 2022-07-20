@@ -24,8 +24,22 @@ body{
     color: #015a96;
     font-family: sans-serif;
 }
-input{
-    padding: 20px;
+
+.slidercontainer{
+    width: 400px;
+    display: flex;
+    margin: 50px 25px;
+}
+
+#slider{
+    margin-left: 30px;
+    width: 200px;
+   
+
+}
+
+.pass-container{
+   padding: 20px;
     user-select: none;
     height: 50px;
     width: 400px;
@@ -36,7 +50,7 @@ input{
     font-size: 22px;
 
 }
-input::placeholder{
+.pass-container::placeholder{
     font-size: 23px;
 }
 
