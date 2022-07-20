@@ -25,18 +25,76 @@ body{
     font-family: sans-serif;
 }
 
-.slidercontainer{
+.setting{
+    width: 100%;
+    display: grid;
+    margin: 50px 50px;
+}
+.range-slider{
+    width: 400px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+label{
+    font-family: sans-serif;
+    font-size:22px;
+    font-weight: 300;
+    
+}
+#slider{
+    width: 220px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.uppercase{
+    width: 400px;
+    margin-bottom:20px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+#uppercase{
+   width: 15px;
+   cursor: pointer;
+   
+}
+.lowercase{
+    width: 400px;
+    margin-bottom:20px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+#lowercase{
+   width: 15px;
+   cursor: pointer;
+   
+}
+.numbers{
+    width: 400px;
+    margin-bottom:20px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+#numbers{
+   width: 15px;
+   cursor: pointer;
+   
+}
+.symbol{
     width: 400px;
     display: flex;
-    margin: 50px 25px;
-}
+    justify-content: space-between;
 
-#slider{
-    margin-left: 30px;
-    width: 200px;
+}
+#symbol{
+   width: 15px;
+   cursor: pointer;
    
-
 }
+
 
 .pass-container{
    padding: 20px;
@@ -48,6 +106,7 @@ body{
     border: 2px solid #8d0cf7;
     outline: none;
     font-size: 22px;
+    margin-left: 50px;
 
 }
 .pass-container::placeholder{
@@ -58,6 +117,7 @@ body{
     font-family: sans-serif;
     font-size: 15px;
     margin-top: 40px;
+    margin-left: 50px;
     border: 2px solid #7100cf;
     width: 155px;
     height: 50px;
@@ -65,6 +125,7 @@ body{
     background-color: #7100cf;
     display: flex;
     color: rgb(255, 255, 255);
+ 
     justify-content: center;
     align-items: center;
     cursor: pointer;

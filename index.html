@@ -10,10 +10,30 @@
   <body>
     <div class="box">
       <h2>Random Password Generator</h2>
-      <div class="slidercontainer">
-        <h3>Length</h3>
-        <input type="range" min="1" max="12" value="0" id="slider">
-      </div>
+  <div class="setting">
+    <div class="range-slider">
+    <label for="lenght">Length</label>
+    <input type="range" id="slider" value="6" min="1" max="12">
+    <input type="number" id="lenght" value="6" min="1" max="12">
+  </div>
+  <div class="uppercase">
+    <label>Uppercase</label>
+    <input type="checkbox" id="uppercase" checked>
+  </div>
+  <div class="lowercase">
+    <label>Lowercase</label>
+    <input type="checkbox" id="lowercase" checked>
+  </div>
+  <div class="numbers">
+    <label>Numbers</label>
+    <input type="checkbox" id="numbers" checked>
+  </div>
+  <div class="symbol">
+    <label>Symbol</label>
+    <input type="checkbox" id="symbol" checked>
+    </div>
+
+  </div>
       <input
         type="text"
         name=""
