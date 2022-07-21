@@ -13,8 +13,8 @@
   <div class="setting">
     <div class="range-slider">
     <label for="lenght">Length</label>
-    <input type="range" id="slider" value="6" min="1" max="12">
-    <input type="number" id="lenght" value="6" min="1" max="12">
+    <input type="range" id="length-slider" value="6" min="1" max="12">
+    <input type="number" id="length-number" value="6" min="1" max="12">
   </div>
   <div class="uppercase">
     <label>Uppercase</label>
@@ -30,7 +30,7 @@
   </div>
   <div class="symbol">
     <label>Symbol</label>
-    <input type="checkbox" id="symbol" checked>
+    <input type="checkbox" id="symbols" checked>
     </div>
 
   </div>
@@ -42,7 +42,7 @@
         readonly class="pass-container"
       />
       <table>
-        <th><div class="btn1 button" onclick="genPassword()">Generate</div></th>
+        <th><div class="btn1 button" onclick="updatePasswod()">Generate</div></th>
         <th><a class="btn2 button" onclick="copyPassword()">copy</th>
       </table>
     </div>
